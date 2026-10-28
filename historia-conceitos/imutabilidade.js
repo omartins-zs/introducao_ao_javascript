@@ -12,4 +12,6 @@
   }
 
   const userWithFullName = getUserWithFullName(user);
+
+  console.log(userWithFullName, user);
 })();

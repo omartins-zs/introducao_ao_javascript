@@ -15,6 +15,8 @@ user[prop] = "Outro nome 3";
 
 // Criando uma propriedade
 user.lastName = "Cabrini da Silva";
+console.log("Objeto com nova propriedade:", user);
 
 // Deletando uma propriedade
 delete user.name;
+console.log("Objeto após deletar a propriedade name:", user);

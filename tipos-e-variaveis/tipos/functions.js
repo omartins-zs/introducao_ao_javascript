@@ -23,7 +23,7 @@ logFnResult(fn);
 // Receber e retornar funções
 const controlFnExec = fnParam => allowed => {
   if (allowed) {
-    fnParam();
+    console.log("Execução permitida:", fnParam());
   }
 };
 

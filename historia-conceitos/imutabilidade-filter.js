@@ -19,4 +19,10 @@
   }
 
   const approvedStudents = getApprovedStudents(students);
+
+  console.log("Alunos aprovados:");
+  console.log(approvedStudents);
+
+  console.log("\nLista de alunos:");
+  console.log(students);
 })();
