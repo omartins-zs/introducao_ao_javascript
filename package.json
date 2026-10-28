@@ -1,0 +1,27 @@
+{
+  "name": "introducao-ao-javascript",
+  "version": "2.0.0",
+  "description": "Laboratório interativo e guia prático sobre fundamentos, história, conceitos, escopos, tipos de dados e variáveis em JavaScript ES6+.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node tests/run-all.js",
+    "run:examples": "node tests/run-all.js"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "closures",
+    "currying",
+    "hoisting",
+    "imutabilidade",
+    "tipos-de-dados",
+    "dio"
+  ],
+  "author": "Gabriel Martins",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
